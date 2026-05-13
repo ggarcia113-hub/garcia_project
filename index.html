@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hotel La Passion</title>
+		<link href= "styles/j.css" rel="stylesheet">
+		<meta name="viewport" content="width=device=width, initial-scale=1.0">
+
+	</head>
+	
+	<body>
+	
+<div id="wrapper">
+	
+		<header> 
+				
+			<h1>Hotel La Passion</h1>
+		
+		</header>
+		
+	<nav>
+		<a href="index.html" class="active">Lobby</a>&nbsp;
+		<a href="rooms/waterfall_room.html">Waterfall Room</a>&nbsp;
+		<a href="rooms/lake_room.html">Lake Room</a>&nbsp;
+		<a href="events/weekend.html">Weekend</a>&nbsp;
+		<a href="contact.html">Booking</a>&nbsp;
+	</nav>	
+	
+	<div id="porch">
+	</div>
+	
+	
+	
+	<div class="line">
+	</div>
+	
+	<div class="flow">
+	
+	<h2>Welcome to Hotel  La  Passion, a place where the warmth of Texas meets the soul of Mexico!</h2>
+	
+	<div class="sec">
+	<p>Our Tex‑Mex bed and breakfast celebrates the artistry of two cultures — rustic wood and vivid tile, soft linens and bold color.
+	Step inside and feel the warmth of the Southwest, where comfort isn’t just offered, it’s crafted.</p>
+	
+	
+	<h3>What to expect from Hotel La Passion?</h3>
+	
+
+	<p>Hotel La Passion is where relaxation meets adventure in the heart of the Southwest.
+	Here, every sunrise feels like a new beginning — golden light spilling across handcrafted wood,
+	vibrant textiles, and the scent of fresh coffee drifting through open windows.
+	It’s a place built fortravelers who crave beauty and warmth, where the spirit of
+	Texas and the soul of Mexico come together in harmony. Whether you’re here to unwind by the fire,
+	explore the wild landscapes beyond, or simply savor the quiet charm of a cozy retreat,
+	Hotel La Passion welcomes you with open arms and a touch of Tex‑Mex magic.</p>
+	
+	
+	<div class="center">
+	
+	<!--<img src="images/lobby.png" alt="view of a tex-mex styled room">-->
+	<img id="myImg" src="images/lobby.png" alt="view of a tex-mex styled room" style="width:100%;max-width:300px">
+
+	<!--<img src="images/dinningroom.png" alt="view of a tex-mex styled room">-->
+	 <img id="myImg" src="images/dinningroom.png" alt="view of a tex-mex styled room" style="width:100%;max-width:300px">
+	<!--<img src="images/lakeroom.png" alt="view of a tex-mex styled room">-->
+	 <img id="myImg" src="images/lakeroom.png" alt="view of a tex-mex styled room" style="width:100%;max-width:300px">
+	
+	<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+	
+	</div>
+	</div>
+	<br>
+	<div class="line">
+	</div>
+	<br>
+	<div class="sec">
+	<h3>!Breakfast!</h3>
+	
+	
+	<p>Your Tex‑Mex breakfast image is ready — a vibrant morning spread full of color and flavor.
+	Huevos rancheros, chorizo hash, breakfast tacos, and burritos sit on a rustic table with
+	steaming coffee and fresh salsa, surrounded by warm tones and handcrafted pottery.</p>
+	
+	
+	<div class="center">
+	<img src="images/food.png" alt="choriso with guevos rancheros">
+	<img src="images/food2.webp" alt="choriso with guevos rancheros" height= "450">
+	<img src="images/food3.webp" alt="choriso with guevos rancheros">
+	</div>
+	</div>
+	</div>
+
+	</main>
+	<!--Email and the Copyright of this website-->
+	<footer>
+		Copyright &copy; 2026
+		<a href="mailto:ggarcia113@amarillocollege.com">Gabriel G</a>
+	</footer>
+</div>
+
+
+</body>
+</html>

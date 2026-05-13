@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	
+		<meta charset="utf-8">
+		<title>Hotel La Passion| Booking</title>
+		<link href= "styles/j.css" rel="stylesheet">
+		<meta name="viewport" content="width=device=width, initial-scale=1.0">
+	
+	</head>
+	
+<body>
+		
+	<div id="wrapper">
+		
+		<header> 
+				
+			<h1>Hotel La Passion</h1>
+		
+		</header>
+		
+	<nav>
+		<a href="index.html">Lobby</a>&nbsp;
+		<a href="rooms/waterfall_room.html">Waterfall Room</a>&nbsp;
+		<a href="rooms/lake_room.html">Lake Room</a>&nbsp;
+		<a href="events/weekend.html">Weekend</a>&nbsp;
+		<a href="contact.html" class="active">Booking</a>&nbsp;
+	</nav>	
+	
+	<!-- <main> -->
+	<main>
+		<h2>Booking</h2>
+	
+	<form method = "post" action = "https://webdevbasics.net/scripts/demo.php">
+			<label for = "fName">First Name: </label>
+			<input type = "text" id = "fName" name = "fName" required>
+			
+			<label for = "lName">Last Name: </label>
+			<input type = "text" id = "lName" name = "lName" required>
+			
+			<label for = "Adults">How many adults? </label>
+			<input type = "text" id = "Adults" name = "Adults" required>
+			
+			<label for = "Seniors">How many seniors? </label>
+			<input type = "text" id = "Seniors" name = "Seniors" required>
+			
+			<label for = "Kids">How many kids? </label>
+			<input type = "text" id = "kids" name = "kids" required>
+			
+			<label for = "myEmail">E-mail: </label>
+			<input type = "email" id = "myEmail" name = "myEmail" required>
+			
+			<label for = "myStart">Arriving: </label>
+			<input type = "date" id = "myStart" name = "myStart" required>
+			
+			<label for = "myStart">Leaving: </label>
+			<input type = "date" id = "myStart" name = "myStart" required>
+			
+			<label for = "myExperience">Room type: </label>
+			<select name = "RoomType" id = "RoomType" required>
+			<option value= "Lake Roomf">Lake Room</option>
+			<option value="Waterfall Room">Waterfall Room</option>
+			</textarea>
+			
+			
+			
+			<input type = "submit" value = "Book Now">
+			
+			<input type = "reset" value= "Reset Form">
+			
+		
+		</form>
+	
+	
+	
+	</main>
+	<!--Email and the Copyright of this website-->
+	<footer>
+		Copyright &copy; 2026
+		<a href="mailto:ggarcia113@amarillocollege.com">Gabriel G</a>
+	</footer>
+	</div>
+</body>
+</html>

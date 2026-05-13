@@ -1,0 +1,345 @@
+
+
+/*styles for the wrapper*/
+#wrapper {
+	background-color: #f6edd5ff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+#porchtex {
+	height: 350px;
+	background-image: url(../images/porchtexmex.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#porch {
+	height: 350px;
+	background-image: url(../images/yellowstone.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+main img {
+	border-radius: 100px;
+}
+	
+
+/*styles for heading*/
+
+
+
+.line {
+	background-color: #a0ce9dff;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.allign {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	width: 100%;
+}
+.center img {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	max-height: 50;
+}
+.middle {
+	width: 98%;
+	height: 200px;
+	/* justify-content: center; */
+	/* display: flex; */
+	gap: 25%;
+	border: 5px solid red;
+	border-radius: 12px;
+	padding: 5px;
+	background-color: #fbac43ff;
+	padding-bottom: 20px;
+	padding-top: 10px;
+  
+}
+
+.waterfall {
+	text-align: center;
+}
+
+.roomw {
+	overflow: auto;
+}
+
+.campfire {
+	float: right;
+	margin-top: -200px;
+	padding-right: 25px;
+	max-width: 100%;
+	height: auto;
+	
+}
+
+.lines {
+	padding-left: 50px;
+	padding-bottom: 20px;
+	background-color: white;
+	margin-right: 70%;
+	display: block;
+	padding-top: 20px;
+}
+
+.show {
+	padding-left: 10%;
+	padding-right: 5px;
+	border: 5px solid red;
+	border-radius: 12px;
+	padding: 5px;
+	background-color: #fbac43ff;
+}
+.sec {
+	flex-direction: row;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border: 5px solid red;
+	border-radius: 12px;
+	padding: 5px;
+	background-color: #fbac43ff;
+}
+.rooms_align {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-wrap: wrap;
+	gap: 150px;
+	width: 98%;
+	border: 5px solid red;
+	border-radius: 12px;
+	padding: 5px;
+	background-color: #fbac43ff;
+}
+
+.rooms_align img {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 300px;
+	height: 300px;
+	border-radius: 100px;
+}
+
+
+/*changing the font size of h2, h3,*/
+ 
+h1 {
+	background-color: #659ad0ff;
+	text-align: center;
+}
+h2 { font-size: 175% }
+h3 { font-size: 145% }
+
+h2, h3 { text-align: center;
+}
+/* displaying the links as bold in the left position */
+
+nav {
+	background-color: #a0ce9dff;
+	font-weight: bold;
+	text-align: center;
+	font-size: 120%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+nav a {
+	text-decoration: none;
+	
+}
+
+nav a.active {
+	background-color: #659ad0ff;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+/* styles for the header */
+header {
+	background-color: #c18d7aff;
+	color: #000000ff;
+	text-align: center;
+}
+p {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+/*styles for body*/
+
+body {
+    background-color: #afe9ddff;
+	color: #000000ff;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+/*styles for the footer*/
+footer {
+	background-color: #659ad0ff;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+}
+aside {
+  width: 25%;
+  height: 50%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  background-color: Blue;
+}
+#flow {
+		display: flex;
+		flex-direction: column;
+	}
+section {
+	
+	flex-direction: row;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+section ul { 
+	padding-right: 25px; 
+	float: left;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* image soom */
+* {
+	box-sizing: border-box;
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px){
+	#wrapper { width: auto;}
+	
+	
+}
+
+
+	form {
+		width: 40%;
+		display: grid;
+		grid-gap: 1em; 
+		grid-template-columns: 1fr 1fr ;
+		column-gap: 10px;
+		padding-bottom: 30px;
+		padding-left: 30%;
+		
+	}
+	
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: -20px;
+		gap: 10px;
+	}
+	
+	input [type="submit"] { grid-column: 2 / 1;
+	width: 3em; }
+
+	input [type="reset"] { grid-column: 2 / 1;
+	width: 3em; }
+	
+}
